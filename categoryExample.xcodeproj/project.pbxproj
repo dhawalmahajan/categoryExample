@@ -13,6 +13,7 @@
 		8BA870C91FA4C5E20084A69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA870C81FA4C5E20084A69A /* Assets.xcassets */; };
 		8BA870CC1FA4C5E20084A69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA870CA1FA4C5E20084A69A /* LaunchScreen.storyboard */; };
 		8BA870CF1FA4C5E20084A69A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA870CE1FA4C5E20084A69A /* main.m */; };
+		8BA870DA1FA4C7440084A69A /* ViewController+cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA870D91FA4C7440084A69A /* ViewController+cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8BA870CB1FA4C5E20084A69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA870CD1FA4C5E20084A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA870CE1FA4C5E20084A69A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BA870D81FA4C7440084A69A /* ViewController+cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+cat.h"; sourceTree = "<group>"; };
+		8BA870D91FA4C7440084A69A /* ViewController+cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+cat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				8BA870BF1FA4C5E20084A69A /* AppDelegate.h */,
 				8BA870C01FA4C5E20084A69A /* AppDelegate.m */,
+				8BA870D81FA4C7440084A69A /* ViewController+cat.h */,
+				8BA870D91FA4C7440084A69A /* ViewController+cat.m */,
 				8BA870C21FA4C5E20084A69A /* ViewController.h */,
 				8BA870C31FA4C5E20084A69A /* ViewController.m */,
 				8BA870C51FA4C5E20084A69A /* Main.storyboard */,
@@ -97,7 +102,7 @@
 		8BA870B41FA4C5E20084A69A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Dhawal Mahajan";
 				TargetAttributes = {
 					8BA870BB1FA4C5E20084A69A = {
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA870C41FA4C5E20084A69A /* ViewController.m in Sources */,
+				8BA870DA1FA4C7440084A69A /* ViewController+cat.m in Sources */,
 				8BA870CF1FA4C5E20084A69A /* main.m in Sources */,
 				8BA870C11FA4C5E20084A69A /* AppDelegate.m in Sources */,
 			);
@@ -184,6 +190,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -191,6 +198,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -239,6 +247,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -246,6 +255,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

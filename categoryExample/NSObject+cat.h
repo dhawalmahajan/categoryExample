@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  NSObject+cat.h
 //  categoryExample
 //
 //  Created by Dhawal Mahajan on 28/10/17.
 //  Copyright © 2017 Dhawal Mahajan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-@property float rad;
+@interface NSObject (cat)
+- (NSString *) firstName;
+- (NSString *) lastName;
 
 @end
-
